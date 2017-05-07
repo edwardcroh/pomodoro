@@ -76,8 +76,8 @@ $(document).ready(function() {
   });
 
   $("#minusClock").click(function() {
-    if(count > 1) {
-      count -= 1;
+    if(count > 5) {
+      count -= 5;
       $("#num5").html(count);
     }
   });
@@ -90,8 +90,8 @@ $(document).ready(function() {
   });
 
   $("#minusBreak").click(function() {
-    if(breakTime > 1) {
-      breakTime -= 1;
+    if(breakTime > 5) {
+      breakTime -= 5;
       $("#break5").html(breakTime);
     }
   });
