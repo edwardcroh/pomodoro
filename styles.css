@@ -1,7 +1,6 @@
 body {
   background-color: #A5DAE2;
   background-size: 120% auto;
-  text-align: center;
   background-attachment: fixed;
   background-repeat: repeat;
   font-family: 'Alegreya Sans SC', sans-serif;
@@ -9,8 +8,7 @@ body {
 
 h2 {
   display: inline;
-  font-size: 80px;
-  text-align: center;
+  font-size: 90px;
 }
 
 #reset, #start {
@@ -19,8 +17,8 @@ h2 {
 
 #title {
   font-family: 'Bungee Shade', cursive;
-  font-size: 90px;
-  padding-bottom: 40px;
+  font-size: 100px;
+  padding-bottom: 60px;
   margin-top: 80px;
 }
 

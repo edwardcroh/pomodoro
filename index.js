@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
   // GLOBAL //
-
+  var buzzer = $("#buzzer")[0];
   var count = parseInt($("#num5").html());
   var breakTime = parseInt($("#break5").html());
   $("#reset, #timetype, .alert-success").hide();
@@ -48,6 +48,7 @@ $(document).ready(function() {
         if (breakTime <= 0) {
           clearInterval(breakTime);
           $("#break5, #timetype").hide();
+          buzzer.play();
           $(".alert-success").show();
         }
 
