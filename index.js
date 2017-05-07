@@ -18,7 +18,7 @@ $(document).ready(function() {
     function timer() {
       $("#start, #addClock, #minusClock, #addBreak, #minusBreak, .timetitle, #break5").hide();
       $("#timetype").show();
-      $("#timetype").html("Remaining Time: ");
+      $("#timetype").html("work hard");
 
       // SESSION //
 
@@ -40,7 +40,7 @@ $(document).ready(function() {
       // BREAK //
 
       function breakTimer() {
-        $("#timetype").html("Remaining Break Time: ");
+        $("#timetype").html("play hard");
         $("#break5").show();
         breakTime -= 1;
         $("#reset").show();
@@ -83,7 +83,7 @@ $(document).ready(function() {
   });
 
   $("#addBreak").click(function() {
-    if(breakTime < 20) {
+    if(breakTime < 30) {
       breakTime += 5;
       $("#break5").html(breakTime);
     }

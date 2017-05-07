@@ -1,7 +1,9 @@
 body {
-  background: url("pineapple.jpg") no-repeat center center fixed;
+  background-color: #A5DAE2;
   background-size: 120% auto;
   text-align: center;
+  background-attachment: fixed;
+  background-repeat: repeat;
   font-family: 'Alegreya Sans SC', sans-serif;
 }
 
@@ -19,6 +21,7 @@ h2 {
   font-family: 'Bungee Shade', cursive;
   font-size: 90px;
   padding-bottom: 40px;
+  margin-top: 80px;
 }
 
 .timetitle {
@@ -40,4 +43,26 @@ button, h2 {
 
 #control-button {
   padding: 15px;
+}
+
+@media screen and (max-width: 500px) {
+  h2 {
+    font-size: 28px;
+  }
+
+  .alert-success {
+    font-size: 18px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  #timetype {
+    font-size: 32px;
+  }
+
+  #title {
+    font-size: 52px;
+  }
 }
