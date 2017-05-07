@@ -1,0 +1,43 @@
+body {
+  background: url("pineapple.jpg") no-repeat center center fixed;
+  background-size: 120% auto;
+  text-align: center;
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+h2 {
+  display: inline;
+  font-size: 80px;
+  text-align: center;
+}
+
+#reset, #start {
+  margin: 10px;
+}
+
+#title {
+  font-family: 'Bungee Shade', cursive;
+  font-size: 90px;
+  padding-bottom: 40px;
+}
+
+.timetitle {
+  padding-top: 25px;
+}
+
+button, h2 {
+  padding: 0px 20px;
+}
+
+.alert-success {
+  font-size: 30px;
+}
+
+#timer {
+  margin: auto;
+  padding: inherit;
+}
+
+#control-button {
+  padding: 15px;
+}
